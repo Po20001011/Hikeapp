@@ -13,6 +13,7 @@
 		CD1115EA2A692740001E83B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1115E92A692740001E83B1 /* Preview Assets.xcassets */; };
 		CD1115F12A692C5B001E83B1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1115F02A692C5B001E83B1 /* CardView.swift */; };
 		CD1115F42A692EAF001E83B1 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1115F32A692EAF001E83B1 /* CustomBackgroundView.swift */; };
+		CD1115F72A69336F001E83B1 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1115F62A69336F001E83B1 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CD1115E92A692740001E83B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD1115F02A692C5B001E83B1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CD1115F32A692EAF001E83B1 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		CD1115F62A69336F001E83B1 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		CD1115E12A69273A001E83B1 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				CD1115F52A69332B001E83B1 /* Utility */,
 				CD1115E22A69273A001E83B1 /* HikeApp.swift */,
 				CD1115E42A69273A001E83B1 /* ContentView.swift */,
 				CD1115E62A692740001E83B1 /* Assets.xcassets */,
@@ -79,6 +82,14 @@
 				CD1115F32A692EAF001E83B1 /* CustomBackgroundView.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		CD1115F52A69332B001E83B1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CD1115F62A69336F001E83B1 /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				CD1115F12A692C5B001E83B1 /* CardView.swift in Sources */,
 				CD1115E32A69273A001E83B1 /* HikeApp.swift in Sources */,
 				CD1115F42A692EAF001E83B1 /* CustomBackgroundView.swift in Sources */,
+				CD1115F72A69336F001E83B1 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
