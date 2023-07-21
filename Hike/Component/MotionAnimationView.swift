@@ -73,6 +73,7 @@ struct MotionAnimationView_Previews: PreviewProvider {
             .background(
             Circle()
                 .fill(.teal)
+            //change
             )
         
     }
