@@ -12,6 +12,7 @@ struct CardView: View {
     
     @State private var imageNumber: Int = 1
     @State private var randomNumber: Int = 1
+    @State private var isShowingSheet: Bool = false
     
     //MARK: - FUNCTIONS
     
