@@ -67,11 +67,11 @@
 		CD1115E12A69273A001E83B1 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
-				CD1115F52A69332B001E83B1 /* Utility */,
-				CDD1F2512AB1C5A3006523F1 /* Screen */,
 				CD1115E62A692740001E83B1 /* Assets.xcassets */,
-				CD1115E82A692740001E83B1 /* Preview Content */,
 				CD1115F22A692E77001E83B1 /* Component */,
+				CD1115E82A692740001E83B1 /* Preview Content */,
+				CDD1F2512AB1C5A3006523F1 /* Screen */,
+				CD1115F52A69332B001E83B1 /* Utility */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
