@@ -21,8 +21,8 @@ struct CardView: View {
         print("Status: Old Image Number = \(imageNumber)")
         
         repeat {
-        randomNumber = Int.random(in: 1...5)
-        print("Action: Random Number Generated = \(randomNumber)")
+            randomNumber = Int.random(in: 1...5)
+            print("Action: Random Number Generated = \(randomNumber)")
         } while randomNumber == imageNumber
         
         imageNumber = randomNumber
@@ -58,8 +58,14 @@ struct CardView: View {
                         Button {
                             // ACTION: Show a sheet
                             print("The button was pressed.")
+                            isShowingSheet.toggle()
                         } label: {
-                          CustomButtonView()
+                            CustomButtonView()
+                        }
+                        .sheet(isPresented: $isShowingSheet) {
+                            SettingsView()
+                                .presentationDragIndicator(.visible)
+                                .presentationDetents([.medium, .large])
                         }
                     }
                     
@@ -73,22 +79,22 @@ struct CardView: View {
                 // MARK: - MAIN CONTENT
                 
                 ZStack {
-                   CustomCircleView()
+                    CustomCircleView()
                     
                     Image("image-\(imageNumber)")
                         .resizable()
                         .scaledToFit()
                         .animation(.default, value: imageNumber)
                 }
-            
+                
                 // MARK: - FOOTER
                 
                 Button {
-                  // ACTION: Generate a random number
-                  
-                  randomImage()
+                    // ACTION: Generate a random number
+                    
+                    randomImage()
                 } label: {
-                  Text("Explore More")
+                    Text("Explore More")
                         .font(.title2)
                         .fontWeight(.heavy)
                         .foregroundStyle(LinearGradient(colors: [ .customGreenLight,
