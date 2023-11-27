@@ -10,7 +10,7 @@
 
 ## HikeApp: Embrace the Joy of Hiking with an Immersive Animation Experience
 
-HikeApp is a groundbreaking iOS application that revolutionizes the hiking experience by seamlessly blending real-world navigation with captivating animation. Embark on breathtaking virtual journeys through diverse landscapes, immersing yourself in the beauty of nature without leaving your doorstep. All rendered in stunning detail through SwiftUI's cutting-edge animation capabilities.
+**HikeApp** allowing users to select their preferred icon. This feature empowers users to personalize their home screen with a selection of app icons which gives it a distinct style.
 
 ## How to access 
 
